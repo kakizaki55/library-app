@@ -9,7 +9,7 @@ function App() {
     <main className="container">
       <BrowserRouter>
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/books">Books</NavLink>
+        <NavLink to="/books">Catalog</NavLink>
         <Switch>
           <Route path="/books/:id" component={BookDetail}></Route>
           <Route path="/books">
