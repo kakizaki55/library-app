@@ -21,7 +21,7 @@ function BookList() {
   return (
     <>
       <h1>Welcome to the books page</h1>
-      <ul className="book-list" aria-label="book list">
+      <ul className="book-list" data-testid="book-list" aria-label="book list">
         {books.map((book) => (
           <li key={book.book_id}>
             <Link key={book.book_id} to={`/books/${book.book_id}`} p>
