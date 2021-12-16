@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a welcome message when signed out 1`] = `
+<div>
+  <main
+    class="container"
+  >
+    <a
+      aria-current="page"
+      class="active"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      href="/books"
+    >
+      Catalog
+    </a>
+    <h1>
+      Library Catalog
+    </h1>
+  </main>
+</div>
+`;
